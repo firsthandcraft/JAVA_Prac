@@ -22,7 +22,7 @@ public class ConsoleUtil {
 	public String getValueOf(String label){
 		//
 		narrator.say(label + ": ");
-		String inputStr = scanner.nextLine();
+		String inputStr = scanner.nextLine(); //콘솔에 입력한 모든 줄을 받을것
 		inputStr = inputStr.trim();
 		return inputStr;
 	}

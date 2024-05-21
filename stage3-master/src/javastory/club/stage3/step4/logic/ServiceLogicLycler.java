@@ -15,9 +15,7 @@ public class ServiceLogicLycler implements ServiceLycler {
 	private BoardService boardService;
 	private PostingService postingService;
 	
-	private ServiceLogicLycler() {
-		//
-	}
+	
 	public synchronized static ServiceLycler shareInstance() {
 		//
 		if (lycler == null) {

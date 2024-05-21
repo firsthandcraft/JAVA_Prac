@@ -5,7 +5,7 @@ import java.util.List;
 import javastory.club.stage3.step4.service.dto.ClubMembershipDto;
 import javastory.club.stage3.step4.service.dto.TravelClubDto;
 
-public interface ClubService {
+public interface ClubService { // 
 	//
 	void register(TravelClubDto clubDto);
 	TravelClubDto findClub(String clubId);
